@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.0+commit.c7dfd78e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "bytes4",
+						"name": "interfaceId",
+						"type": "bytes4"
+					}
+				],
+				"name": "supportsInterface",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contract/CryptoBullDogs.sol": "IERC165"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contract/CryptoBullDogs.sol": {
+			"keccak256": "0x34b7bb8c08a1a61179e254565055c770d4df45df769825484669c792f9938e8d",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://88f722ed01e0c7ca743ab963a1b253d4e6c2c5bce90bb4f03f3a1ecab986dc98",
+				"dweb:/ipfs/QmVJZsX9attgjqQHKda86WFczKVtF4Eo8dU4matW59SJuP"
+			]
+		}
+	},
+	"version": 1
+}
